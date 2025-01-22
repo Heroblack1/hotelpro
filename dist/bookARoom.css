@@ -1,0 +1,68 @@
+.containe {
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    gap: 55px;
+}
+.green{
+   background-color: #847048;
+   text-decoration: underline;
+   color: #847048;
+}
+.ima1{
+    /* flex-basis: auto; */
+    background-color: #000;
+    width: 230px;
+    height: 220px;
+    background-image: url('meetings-in-midtown-manhattan1 (1).jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    object-fit: cover;
+    
+ }
+ .desc{
+    margin: 0px;
+    border: none;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+ }
+ .shortDesc{
+    font-style: italic;
+    font-size: 17px;
+ }
+ .acc{
+    font-style: italic;
+    font-size: 17px;
+    text-decoration: underline;
+    color: #847048;
+ }
+ .linked{
+    color: #c9c6c4;
+    font-family: Voltaire sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+    border: 2px solid #847048;
+    background: transparent;
+    height: 50px;
+    /* margin-left: 70px; */
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 220px;
+   
+}
