@@ -14,6 +14,14 @@
       {
         "source": "/dashboard",
         "destination": "/dashboard.html"
+      },
+      {
+        "source": "/adminForm",
+        "destination": "/adminForm.html"
+      },
+      {
+        "source": "/pay",
+        "destination": "/pay.html"
       }
     ]
   }

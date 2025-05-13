@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Hblack Hotel</title>
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/11.1.0/firebase-app-compat.js"></script>
@@ -17,26 +17,23 @@
     <script defer src="/__/firebase/11.1.0/firebase-analytics-compat.js"></script>
     <script defer src="/__/firebase/11.1.0/firebase-remote-config-compat.js"></script>
     <script defer src="/__/firebase/11.1.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
+  
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <link rel="icon" type="image/x-icon" href="hbllogo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="hotel.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   <body>
-    <section>
+    <section id="gec">
       <div id="oops">
           <video id="vid" autoplay loop muted>
               <source src="mixkit-white-luxury-boutique-hotel-room-4046-full-hd.mp4" type="video/mp4">
           </video>
           <nav id="navbar">
               <div class="flen">
-                  <a href="" class="linke">AMENITIES</a>
-                  <span class="material-symbols-outlined" id="icon">menu</span>
-                  <a href="" class="linke">ROOMS AND SUITES</a>
+                  <a href="index.html" class="linke">HOME</a>
+                  <a href="/rooms" class="linke">ROOMS AND SUITES</a>
               </div>
   
               <div class="shield">
@@ -44,7 +41,7 @@
               </div>
                   
               <div class="flen">
-                  <a href="adminForm.html" class="linker">ADMIN</a>
+                  <a href="dashboard.html" class="linker">ADMIN</a>
                   <a href="/rooms" class="linked">BOOK YOUR STAY</a>
               </div>
           </nav>   
@@ -71,60 +68,28 @@
 
       <div class="kai">
           <div class="ima1">
-              <P class="black1">CONTEMPORARY AND STYLISH</P>
+              <P class="black1">COOL AND STYLISH</P>
+              <p class="appear">Discover special offers for exclusive experiences at our Times Square hotel, ensuring your New York City adventure is nothing short of extraordinary.</p>
+              <button class="linkerr">LEARN MORE</button>
           </div>
           <div class="ima2">
               <P class="black1">Special Offers That Elevate</P>
+              <p class="appear">Discover special offers for exclusive experiences at our Times Square hotel, ensuring your New York City adventure is nothing short of extraordinary.</p>
+              <button class="linkerr">LEARN MORE</button>
           </div>
       </div>
 
       <div class="kai">
-          <div class="ima1">
+          <div class="ima4">
               <P class="black1">CONTEMPORARY AND STYLISH</P>
+              <p class="appear">Discover special offers for exclusive experiences at our Times Square hotel, ensuring your New York City adventure is nothing short of extraordinary.</p>
+              <button class="linkerr">LEARN MORE</button> 
           </div>
           <!-- <div class="ima2">
               <P class="black1">Special Offers That Elevate</P>
           </div> -->
       </div>
-
-      <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Accordion Item #1
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion Item #2
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-      </div>
+      
 
      <section class="foota">
           <div class="again">
